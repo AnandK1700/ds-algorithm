@@ -1,3 +1,5 @@
+//Valid Parenthesis using recursion
+
 class Stack{
     constructor(){
         this.data = [];
@@ -58,4 +60,4 @@ function checkParenthesis(str){
     return stack.isEmpty();
 }
 
-console.log(checkParenthesis("({})["));
+console.log(checkParenthesis(""));
