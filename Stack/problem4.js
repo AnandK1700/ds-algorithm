@@ -1,3 +1,5 @@
+//sort the elements of stack using recursion
+
 class Stack{
     constructor(){
         this.data = [];
@@ -56,7 +58,7 @@ class Stack{
         }
     }
 
-    
+
 }
 
 let stack = new Stack();
